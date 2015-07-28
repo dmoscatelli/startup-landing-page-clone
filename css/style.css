@@ -455,14 +455,16 @@ letter-spacing: 0.03em
 
 .top-navigation > .content {
   width: 970px;
-  height: 70px;
+  height: 50px;
   margin: 0 auto;
+
 }
 
 .top-navigation > .content > .logo {
 
   float: left;
-  margin-top: 60px;
+  margin-top: 20px;
+  clear: both;
 
 }
 
@@ -471,15 +473,15 @@ letter-spacing: 0.03em
   font-family: 'Roboto', sans-serif; 
   color: #838994;
   font-size: 16px;
-  margin-top: 15px; 
+  margin-top: -7px;
   margin-right: 200px;
-
 }
 
 .top-navigation .links li {
   display: inline-block;
   margin-left: 25px; 
   margin-right: 15px;
+  margin-bottom: 0.5em;
 }
 
 .top-navigation .links .active  {
@@ -490,6 +492,92 @@ letter-spacing: 0.03em
 .top-navigation .links li:hover {
   cursor: pointer;
   color: #333333;
+}
+
+.introduction {
+  margin-top: 40px;
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+}
+
+.introduction > .content  {
+  padding-top: 0.01rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.content h1, h3 {
+  font-weight: 300;
+}
+
+.content h1 {
+  margin-top: 17.5rem;
+  margin-bottom: 0.9rem;
+  font-size: 3.125rem;
+}
+
+.content h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+
+
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #f15a29;
+}
+
+
+
+
+
+
+/*
+
+My code, Header Image 
+
+.header-image {
+  clear: both;
+  background-image: url('../images/first-background.jpg');
+  background-position: 0 bottom; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  padding-top: 15em;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.header-text {
+  font-size: 3.5em;
+  font-weight: 100;
+  color: white;
+  margin-bottom: -0.09em;
+}
+
+.header-intro {
+  color: white;
+  font-size: 1.0em;
+}
+
+
+button {
+  padding: 1.1em 2.3em;
+  color: white;
+  background-color: rgb(238,89,48);
+  border: none;
+  border-radius: 5px;
 }
 
 
