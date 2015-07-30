@@ -544,6 +544,8 @@ letter-spacing: 0.03em
   font-size: 2.75rem; 
   margin: 1.625rem 0 3.125rem;
   font-weight: 300; 
+  color: #1d1e21;
+
 }
 
 .cases {
@@ -553,10 +555,65 @@ letter-spacing: 0.03em
  .devices {
 
   display: inline-block;
-  padding: 60px;
+  padding: 20px;
   height: 4em;
- 
 }
+
+.devices h3 {
+  font-weight: 300;
+  font-size: 1.563rem;
+  color: #1d1e21;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+
+footer {
+  padding: 100px;
+  font-weight: 100;
+}
+
+
+footer .content {
+  text-align: center;
+}
+
+footer .icons {
+  margin-left: -35px;
+}
+
+
+.icons li {
+
+  display: inline-block;
+  margin: 3px;
+  list-style: none;
+}
+
+.fa-twitter {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 50px;
+
+}
+
+.fa-facebook {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 50px;
+}
+
+
+.fa-instagram {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 50px;
+}
+
+
+
 
 
 
